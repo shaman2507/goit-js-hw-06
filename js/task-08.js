@@ -15,7 +15,7 @@ loginForm.addEventListener('submit', event => {
         });
         
     } else if (emailValue === "" || passwordValue === "") {
-        alert("Fill up all the forms!");
+        return alert("Fill up all the forms!");
     } else {
         alert("Wrong email or password");
     }
